@@ -1,0 +1,67 @@
+nav{
+    justify-content: space-between;
+    padding: 10px 2%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10px;
+}
+.nav-left .menu_icon{
+    width: 22px;
+    margin-right: 25px;
+}
+.nav-left .logo_icon{
+    width: 130px;
+}
+.nav-middle .search-box{
+    border: 1px solid #ccc;
+    margin-right: 25px;
+    padding: 8px 15px;
+    border-radius: 25px;
+}
+.nav-middle .search-box input{
+    outline: 0;
+    border: 0;
+    background: transparent;
+    width: 400px;
+}
+.nav-middle .search-box img{
+    width: 15px;
+}
+.nav-right img{
+    width: 25px;
+    margin-right: 25px;
+}
+.nav-right .user_icon{
+    width: 35px;
+    border-radius: 50%;
+}
+
+/* responsive max-width:900 --------------------------------------------------*/
+@media (max-width:900px) {
+nav{
+    justify-content: space-around;
+ 
+}
+.nav-left .menu_icon{
+    display: none;
+    /*  */
+}
+.nav-left .logo_icon{
+    width: 90px;
+    margin-right: 15px;
+}
+
+.nav-middle .search-box input{
+    width: 100px;
+}
+.nav-right img{
+   display: none;
+}
+.nav-right .user_icon{
+   display: block;
+   width: 30px;
+}
+
+}
